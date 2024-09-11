@@ -4,6 +4,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 object FontSize {
+    val ExtraSmall = 10.sp
     val Small = 16.sp
     val Medium = 24.sp
     val Big = 32.sp

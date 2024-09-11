@@ -2,5 +2,15 @@
     <string name="app_name">Chat</string>
     <string name="write_phone">Введите телефон</string>
     <string name="sign_in">Войти</string>
+    <string name="sign_up">Зарегистрироваться</string>
     <string name="chat_icon">Chat icon</string>
+    <string name="back_icon_button">Back icon button</string>
+    <string name="choose_country">Выберите страну</string>
+    <string name="enter_code">Введите код</string>
+    <string name="send_code_on">"Выслали код на номер "</string>
+    <string name="register">"Регистрация"</string>
+    <string name="enter_reg">"Введите свои данные"</string>
+    <string name="root_enter">"В поле username требуется ввести не менее 5 латинских символов или чисел, исключаются любые спецсимволы, кроме - и _"</string>
+    <string name="enter_username">Введите username</string>
+    <string name="enter_name">Введите имя</string>
 </resources>

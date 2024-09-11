@@ -21,6 +21,10 @@ val Tertiary: Color
     @Composable
     get() = MaterialTheme.colorScheme.tertiary
 
+val Error: Color
+    @Composable
+    get() = MaterialTheme.colorScheme.error
+
 val TextColor: Color
     @Composable
     get() = if (isSystemInDarkTheme()) Color.White else Color.Black

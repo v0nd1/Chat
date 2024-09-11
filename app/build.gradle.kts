@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.jetpack.compose.compiler)
     alias(libs.plugins.jetbrains.kotlin.kapt)
     alias(libs.plugins.dagger.hilt)
+    alias(libs.plugins.kotlin.serialization)
 }
 
 android {
@@ -82,7 +83,11 @@ dependencies {
 
     // Retrofit
     implementation(libs.retrofit)
-    // GsonConverter
+
+    // KotlinX Serialization
+    implementation(libs.kotlinx.serialization.json)
+
+    // Converter
     implementation(libs.converter.gson)
 
 }
